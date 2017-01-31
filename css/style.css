@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: 100;
 }
 
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 section {
 	max-width: 960px;
 	margin: auto;
@@ -72,6 +76,19 @@ iframe {
     width: 300px;
 }
 
+.full {
+	width: 100%;
+	text-align: center;
+}
+.box {
+	    padding: 25px;
+    border: 1px solid #fff;
+}
+
+.black-box {
+		    padding: 25px;
+    border: 1px solid #222;
+}
 .highlight {
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;

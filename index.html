@@ -19,6 +19,7 @@
     <link href="css/variables.css" rel="stylesheet">
 
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
   </head>
@@ -42,12 +43,11 @@
         </a>
       </div>
       <div class="flex-3"></div>
-      <div class="menu flex flex-7 center">
-        <!-- <a href="#about" class="main">About</a> -->
-        <a href="#school" class="main">Schools</a>
+      <div class="menu flex flex-7 center" style="margin-bottom: 0;">
         <a href="#parents" class="main">Parents</a>
         <a href="#nonprofits" class="main">Non Profits</a>
-        <!-- <a href="#join" class="main">Join</a> -->
+        <a href="#school" class="main">Schools</a>
+        <a href="#about" class="main">About</a>
         <!-- <a href="#how" class="main">How It Works</a> -->
         <a href="#contact" class="main">Contact</a>
       </div>
@@ -69,7 +69,7 @@
         </div>
       </div>
       <div class="flex-5">
-        <img style="width: 350px;" src="img/message_board.png">
+        <img src="img/message_board.png">
       </div>
     </div>
     <div class="flex bottom center hidden-mobile">
@@ -78,18 +78,18 @@
   </div>  
 <!-- End Hero Section -->
 
-  <div style="background: #352f44; max-height: 750px;">
+  <div style=" max-height: 750px;">
     <section id="parents">
       <div class="flex">
         <div class="flex-5">
           <img src="img/time_tracker.png">
         </div>
-        <div class="flex-5 center">
-          <h2 style="text-align: center; color: #fff; font-weight: bold;">PARENTS</h2>
+        <div class="flex-5 center black-box">
+          <h2 style="text-align: center; font-weight: bold;">PARENTS</h2>
           <br>
-          <p style="text-align: center; color: #fff;">Givety’s centralized listing of nonprofit organizations and volunteer opportunities will help your child make a difference. And getting credit for their volunteer work is easy – they can self-check-in electronically at your volunteer location when they arrive and check out when they’re done. No more paper forms or getting signatures on time-sheets.</p>
+          <p style="text-align: center;">Givety’s centralized listing of nonprofit organizations and volunteer opportunities will help your child make a difference. And getting credit for their volunteer work is easy – they can self-check-in electronically at your volunteer location when they arrive and check out when they’re done. No more paper forms or getting signatures on time-sheets.</p>
           <br>
-          <p style="text-align: center; color: #fff;">By emphasizing the social aspects of volunteering and bringing varied and diverse opportunities in which to do so, Givety will motivate students to get involved!</p>
+          <p style="text-align: center;">By emphasizing the social aspects of volunteering and bringing varied and diverse opportunities in which to do so, Givety will motivate students to get involved!</p>
         </div>
       </div>
     </section>
@@ -98,7 +98,7 @@
   <div style="background: var(--main); max-height: 750px;">
     <section id="nonprofits">
       <div class="flex">
-        <div class="flex-5 center">
+        <div class="flex-5 center box">
           <h2 style="text-align: center; color: #fff; font-weight: bold;">NON PROFITS</h2>
           <br>
           <p style="text-align: center; color: #fff;">Givety’s community of next-generation givers helps you access a new pool of enthusiastic volunteers and increases your outreach.</p>
@@ -114,18 +114,37 @@
     </section>
   </div>
 
-  <div style="background: #352f44; max-height: 750px;">
+  <div style="max-height: 750px;">
     <section id="school">
       <div class="flex">
         <div class="flex-5">
           <img src="img/schools.png">
         </div>
+        <div class="flex-5 center black-box">
+          <h2 style="text-align: center; font-weight: bold;">SCHOOLS</h2>
+          <br>
+          <p style="text-align: center;">Our tools streamline the process of tracking student volunteering by eliminating printed forms. Leveraging mobile technology, your institution will be able to build an accurate electronic database of time spent by students at nonprofits, reducing your workload and providing better data for college and other applications.</p>
+          <br>
+          <p style="text-align: center;">By emphasizing the social aspects of volunteering and bringing varied and diverse opportunities in which to do so, Givety will motivate students to get involved.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div style="background: var(--main); max-height: 750px;">
+    <section id="about">
+      <div class="flex">
         <div class="flex-5 center">
-          <h2 style="text-align: center; color: #fff; font-weight: bold;">SCHOOLS</h2>
+          <h2 style="text-align: center; color: #fff; font-weight: bold;">ABOUT</h2>
           <br>
-          <p style="text-align: center; color: #fff;">Our tools streamline the process of tracking student volunteering by eliminating printed forms. Leveraging mobile technology, your institution will be able to build an accurate electronic database of time spent by students at nonprofits, reducing your workload and providing better data for college and other applications.</p>
+          <p style="text-align: center; color: #fff;">I’m Tracey Schuster and I’m the founder of Givety.</p>
           <br>
-          <p style="text-align: center; color: #fff;">By emphasizing the social aspects of volunteering and bringing varied and diverse opportunities in which to do so, Givety will motivate students to get involved.</p>
+          <p style="text-align: center; color: #fff;"> My goal for givety is to leverage mobile technologies and the internet to foster the volunteering spirit in students. I want to help kids become Responsible citizens and change the face of community service to meet the needs of teen today.</p>
+          <br>
+          <p style="text-align: center; color: #fff;">If we engage kids at a younger age with a mobile social platform, volunteering can become another social activity instead of a chore.</p>
+        </div>
+        <div class="flex-5">
+          <img src="img/tracey.jpg">
         </div>
       </div>
     </section>
@@ -175,10 +194,24 @@
 <!-- Form End -->
 
   <footer>
-    <div class="flex">
-      <div class="center">
-        <p style="text-align: center;">GIVETY <br> All Rights Reserved 2017</p>
-      </div>
+    <div class="flex center full" style="max-width: 300px;">
+      <!-- <a href="mailto::tracey@givety.com" target="_blank">
+         <i class="fa fa-envelope fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a> -->
+      <a href="https://www.facebook.com/givety.usa/" target="_blank">
+        <i class="fa fa-facebook fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/givetyusa/" target="_blank">
+        <i class="fa fa-instagram fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/givetyusa" target="_blank">
+        <i class="fa fa-twitter fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a>      
+    </div>
+    <div class="flex center">
+      <p class="full">GIVETY</p>
+      <p class="full">© 2017 All Rights Reserved</p>
+        <!-- <p><a href="/feed.xml">subscribe via RSS</a></p> -->
     </div>
   </footer>
 
