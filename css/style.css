@@ -60,11 +60,16 @@ iframe {
 }
 
 .hero-content {
-	height: 750px;
+	max-height: 750px;
 }
 
 .caret {
 	font-size: 100px;
+}
+
+.pics {
+    padding: 5px;
+    width: 300px;
 }
 
 .highlight {
