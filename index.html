@@ -37,12 +37,12 @@
         </div>
       </div>
 
-      <div class="flex flex-2 flex-mobile-12 center">
+      <div class="flex flex-2 flex-mobile-5 center">
         <a href="/">
-          <img class="flex center" src="img/logo.jpg">
+          <img class="flex center" src="img/logo.png">
         </a>
       </div>
-      <div class="flex-3"></div>
+      <div class="flex-3 hidden-mobile"></div>
       <div class="menu flex flex-7 center" style="margin-bottom: 0;">
         <a href="#about" class="main">About</a>
         <a href="#parents" class="main">Parents</a>
@@ -65,7 +65,14 @@
         <p style="text-align: center;">Help your friends get involved, ask friends to support your efforts, work together to make a difference, and be recognized for your good deeds - Givety is the place to do all of that!</p>
         <br>
         <div class="flex center">
-          <button onclick="openModal()">NOTIFY ME WHEN LIVE</button>
+          <a href="https://appsto.re/us/kwHqcb.i" target="_blank">
+            <button>DOWNLOAD NOW!</button>
+          </a>
+        </div>
+        <div class="flex flex-6 center">
+          <a href="https://appsto.re/us/kwHqcb.i" target="_blank">
+            <img style="padding: 15px;" src="img/app-store.png">
+          </a>
         </div>
       </div>
       <div class="flex-5">
@@ -221,9 +228,19 @@
         <!-- Begin MailChimp Signup Form -->
         <section style="padding-top: 0;">
           <div id="mc_embed_signup" class="flex-6 center">
-            <form action="//ImagineMyApp.us3.list-manage.com/subscribe/post?u=039197b0b22c39f4adf21fc88&amp;id=4d7830e6e3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="//givety.us10.list-manage.com/subscribe/post?u=4b2d9605937c9e76b7a7b07a9&amp;id=a4dfaa2b17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              
               <div class="mc-field-group">
-                <input style="    margin-bottom: 20px;" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <select name="LNAME" class="" id="mce-LNAME">
+                  <option value="student">Student</option>
+                  <option value="nonprofit">Non-Profit</option>
+                  <option value="educator">Educator</option>
+                  <option value="parent">Parent</option>
+                </select>
+              </div>
+
+              <div class="mc-field-group">
+                <input style="margin-bottom: 20px;" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                 <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
               </div>
 
