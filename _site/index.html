@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Givety</title>
+
+    <!-- Style Guide CSS -->
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/flex.css" rel="stylesheet">
+    <link href="css/font-sizes.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
+    <link href="css/hamburger.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/variables.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+
+<!-- Begin Nav -->
+  <header>
+    <div class="flex flex-12 nav center left">
+      <div class="hidden-desktop left">
+        <div id="open-close-nav" class="hamburger hamburger--squeeze">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-2 flex-mobile-12 center">
+        <a href="/">
+          <img class="flex center" src="img/logo.jpg">
+        </a>
+      </div>
+      <div class="flex-3"></div>
+      <div class="menu flex flex-7 center" style="margin-bottom: 0;">
+        <a href="#about" class="main">About</a>
+        <a href="#parents" class="main">Parents</a>
+        <a href="#nonprofits" class="main">Non Profits</a>
+        <a href="#school" class="main">Schools</a>
+        <!-- <a href="#how" class="main">How It Works</a> -->
+        <a href="#contact" class="main">Contact</a>
+      </div>
+    </div> 
+  </header>
+<!-- End Nav -->
+
+<!-- Begin Hero Section -->
+  <div class="hero">
+    <div class="flex hero-content center">
+      <div class="flex-2 hidden-mobile"></div>
+      <div class="flex-5 flex-mobile-12" style="padding: 15px;">
+        <h2 style="text-align: center;">Making a difference one friend at a time</h2>
+        <br>
+        <p style="text-align: center;">Help your friends get involved, ask friends to support your efforts, work together to make a difference, and be recognized for your good deeds - Givety is the place to do all of that!</p>
+        <br>
+        <div class="flex center">
+          <button onclick="openModal()">NOTIFY ME WHEN LIVE</button>
+        </div>
+      </div>
+      <div class="flex-5">
+        <img src="img/message_board.png">
+      </div>
+    </div>
+  </div>  
+<!-- End Hero Section -->
+
+  <div style=" max-height: 750px;">
+    <section id="parents">
+      <div class="flex">
+        <div class="flex-5 center">
+          <img src="img/time_tracker.png">
+        </div>
+        <div class="flex-5 flex-mobile-12 center">
+          <h2 style="text-align: center; font-weight: bold;">PARENTS</h2>
+          <br>
+          <p style="text-align: center;">Givety’s centralized listing of nonprofit organizations and volunteer opportunities will help your child make a difference. And getting credit for their volunteer work is easy – they can self-check-in electronically at your volunteer location when they arrive and check out when they’re done. No more paper forms or getting signatures on time-sheets.</p>
+          <br>
+          <p style="text-align: center;">By emphasizing the social aspects of volunteering and bringing varied and diverse opportunities in which to do so, Givety will motivate students to get involved!</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div style="background: var(--main); max-height: 750px;">
+    <section id="nonprofits">
+      <div class="flex">
+        <div class="flex-5 flex-mobile-12 center">
+          <h2 style="text-align: center; color: #fff; font-weight: bold;">NON PROFITS</h2>
+          <br>
+          <p style="text-align: center; color: #fff;">Givety’s community of next-generation givers helps you access a new pool of enthusiastic volunteers and increases your outreach.</p>
+          <br>
+          <p style="text-align: center; color: #fff;">We make volunteering and charitable activity more attractive for young people by making it social, more visible and easier to take part in.</p>
+          <br>
+          <p style="text-align: center; color: #fff;">By encouraging more people to take action while reducing the burden on your organization, you will be better able to pursue your mission and assist your clients.</p>
+        </div>
+        <div class="flex-5 center">
+          <img src="img/posting.png">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div style="max-height: 750px;">
+    <section id="school">
+      <div class="flex">
+        <div class="flex-5 center">
+          <img src="img/schools.png">
+        </div>
+        <div class="flex-5 flex-mobile-12 center">
+          <h2 style="text-align: center; font-weight: bold;">SCHOOLS</h2>
+          <br>
+          <p style="text-align: center;">Our tools streamline the process of tracking student volunteering by eliminating printed forms. Leveraging mobile technology, your institution will be able to build an accurate electronic database of time spent by students at nonprofits, reducing your workload and providing better data for college and other applications.</p>
+          <br>
+          <p style="text-align: center;">By emphasizing the social aspects of volunteering and bringing varied and diverse opportunities in which to do so, Givety will motivate students to get involved.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div style="background: var(--main); max-height: 750px;">
+    <section id="about">
+      <div class="flex">
+        <div class="flex-5 flex-mobile-12 center">
+          <h2 style="text-align: center; color: #fff; font-weight: bold;">ABOUT</h2>
+          <br>
+          <p style="text-align: center; color: #fff;">I’m Tracey Schuster and I’m the founder of Givety.</p>
+          <br>
+          <p style="text-align: center; color: #fff;"> My goal for givety is to leverage mobile technologies and the internet to foster the volunteering spirit in students. I want to help kids become Responsible citizens and change the face of community service to meet the needs of teen today.</p>
+          <br>
+          <p style="text-align: center; color: #fff;">If we engage kids at a younger age with a mobile social platform, volunteering can become another social activity instead of a chore.</p>
+        </div>
+        <div class="flex-5 flex-mobile-10 center">
+          <img src="img/tracey.jpg">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="pics">
+    <h3 style="text-align: center;">Help us make Givety the go to source for student volunteerism</h3>
+    <br>
+    <p style="text-align: center;">You and your friends can see the places you’re helping out, find other interesting and exciting volunteering opportunities, and take part in it together.</p>
+    <br>
+    <div class="flex center">
+      <img class="pics" src="img/pic1.jpg">
+      <img class="pics" src="img/pic2.jpg">
+      <img class="pics" src="img/pic3.jpg">
+      <img class="pics" src="img/pic4.jpg">
+      <img class="pics" src="img/pic5.jpg">
+    </div>
+  </section>
+
+<!-- Form Start -->
+  <section id="contact">
+    <h2 style="text-align: center;">CONTACT US</h2>
+    <br>
+    <!-- Form Start -->
+    <form id="contact-form" action="#" method="POST">
+      <div class="flex">
+        <input style="display:none;" type="text" name="honey" value=""/>
+        <div class="flex-6 flex-mobile-12" style="padding: 10px;">
+          <input required type="name" name="name" value="">
+          <label>Name <span>*</span></label>
+        </div>
+
+        <div class="flex-6 flex-mobile-12" style="padding: 10px;">
+          <input required type="email" name="email" value="">
+          <label>Email <span>*</span></label>
+        </div>
+
+        <div class="flex-12" style="padding: 10px;">
+          <textarea required type="text" name="message" value=""></textarea>
+          <label>Message <span>*</span></label>
+        </div>
+        <button type="submit" value="Submit" class="center form-submit">Submit</button>
+      </div>
+    </form>
+    <!-- Form End -->
+  </section>
+<!-- Form End -->
+
+  <footer>
+    <div class="flex center full" style="max-width: 300px;">
+      <!-- <a href="mailto::tracey@givety.com" target="_blank">
+         <i class="fa fa-envelope fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a> -->
+      <a href="https://www.facebook.com/givety.usa/" target="_blank">
+        <i class="fa fa-facebook fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/givetyusa/" target="_blank">
+        <i class="fa fa-instagram fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/givetyusa" target="_blank">
+        <i class="fa fa-twitter fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+      </a>      
+    </div>
+    <div class="flex center">
+      <p class="full">GIVETY</p>
+      <p class="full">© 2017 All Rights Reserved</p>
+        <!-- <p><a href="/feed.xml">subscribe via RSS</a></p> -->
+    </div>
+  </footer>
+
+<!-- Modal Begin -->
+    <div id="modal" class="modal flex center">
+      <div class="modal-background" onclick="closeModal()"></div>
+      <div class="modal-content">
+        <p class="modal-close"  onclick="closeModal()">x</p>
+        <h4 style="margin-bottom: 20px;">Notify Me!</h4>
+        <!-- Begin MailChimp Signup Form -->
+        <section style="padding-top: 0;">
+          <div id="mc_embed_signup" class="flex-6 center">
+            <form action="//ImagineMyApp.us3.list-manage.com/subscribe/post?u=039197b0b22c39f4adf21fc88&amp;id=4d7830e6e3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="mc-field-group">
+                <input style="    margin-bottom: 20px;" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+              </div>
+
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_039197b0b22c39f4adf21fc88_61db42cdca" tabindex="-1" value=""></div>
+              <button type="submit" value="Subscribe" class="flex center" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+            </form>
+          </div>
+        </section>
+        <!--End mc_embed_signup-->
+      </div>
+    </div>
+<!-- Modal End --> 
+
+    <!-- Style Guide JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
