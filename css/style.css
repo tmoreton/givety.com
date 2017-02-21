@@ -58,6 +58,10 @@ iframe {
     display: none; 
 }
 
+strong {
+	text-shadow: 0.5px 0 black, -0.5px 0 black;
+}
+
 .hero {
 	background-color: var(--main);
 	color: white;

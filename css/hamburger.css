@@ -1,5 +1,5 @@
 .hamburger {
-  background-color: #222;
+  background-color: var(--gray);
   position: absolute;
   padding: 15px 15px;
   display: inline-block;
@@ -34,7 +34,7 @@
 .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: var(--white);
+  background-color: var(--black);
   border-radius: 4px;
   position: absolute;
   transition-property: -webkit-transform;
